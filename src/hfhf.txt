@@ -1,0 +1,1 @@
+csináljuk meg az eddig elkészült kinézetet egy komponensel aminek a bemeneti paraméterei a 2 oldal részletei/tartalma

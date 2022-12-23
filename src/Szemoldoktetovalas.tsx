@@ -1,10 +1,16 @@
 import React from 'react';
 import styled from 'styled-components'
+import OnlineFoglalas from './onlineFoglalas';
 
 const Container = styled.div`
     display:flex;
     flex-direction: column;
    
+`
+const Second = styled.div`
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(267.94deg, #DECCCD -2.57%, #FFFFFF 72.66%, #F2E5E6 101.17%);
 `
 const Top = styled.div`
     display:flex;
@@ -57,6 +63,10 @@ const Img = styled.img`
     height: 100%;
     border-radius: 80px 80px 80px 5px;
 `
+const Bold = styled.div`
+font-weight: bold;
+display:inline-block;
+`
 
 const SzemoldokTetovalas:React.FC = () => {
     return (
@@ -84,6 +94,7 @@ const SzemoldokTetovalas:React.FC = () => {
            <Text>Minden új tetovalas 2 alkalom, az első alkalom után legalább 4 hétnek kell elteni, legfeljebb 3 hónapon belül meg kell, hogy történjen a korrekció, ebben az esetben ingyenes. Mindig két alkalom kell ahhoz, hogy tökéletes, egyénre szabott szemoldokot tudjunk készíteni.</Text>
            </Right>
            </Bottom>
+           <Second>
            <Top>
             <Left>
            <Header>Szemhéjtetoválás</Header> 
@@ -107,6 +118,31 @@ const SzemoldokTetovalas:React.FC = () => {
            <Text>Fontos, hogy muszempilla és kontakt lencse a tetovalas ideje alatt nem lehet a szempillan, illetve a szemben.</Text>
            </Right>
            </Bottom>
+           </Second>
+           <Top>
+            <Left>
+           <Header>Szájtetoválás</Header> 
+           <Text>Mindenkinek elkészíthető, legyen vékonyabb, vagy teltebb az ajkad, egy megfelelően kiválasztott szín, dusabba, hangsúlyosabbá teszi az ajkakat.A természetes hatástol, a ruzsozott, sminkelt határáig bármi elkészíthető.Optikailag nagyit egy szín, de fontos, hogy nem helyettesíti a töltést, bár 1-2mm-t lehet nagyitani, korrigálni az asszimetrián.</Text>
+           <Text>Ha töltésen és tetovlason is gondolkozol, akkor először a tetoválást javasolt elkészíteni, utána a töltést.</Text>
+           <Text><Bold>Teljes satir:</Bold> Itt az egész ajak területet egy választott színnel tetovaljuk, élesebb kontúrral vagy kontur nélkül is elkészíthető.</Text>
+           <Text><Bold>Fel satir:</Bold> ez leginkább teltebb ajkakon látványos,az ajak felet tetovaljuk, fontos tudni, hogy ez akkor ideális választás, ha a saját ajakszinedhez hasonló szint szeretnél, akkor a legtermészetesebb.</Text>
+           </Left>
+           <Right>
+            <Img src={require("./ot.jpg")} alt="" /> 
+           </Right>
+           </Top>
+           <Bottom>
+           <Left>
+           <Img src={require("./hat.jpg")} alt=""/>
+           </Left>
+           <Right>
+            <Text><Bold>3D:</Bold> Itt több szint használunk az ajak területen, a kontur és kontur körüli rész picit sötétebb, belül világosabb és a középső részt a legvilagosabb színnel tetovaljuk, így színátmenetet készítünk az ajak külső részétől a belső fele. Optikailag ezzel lehet a legtöbbet ‘nagyitani’.</Text>
+           <Text>A szaj elkészítése <Bold>3 órát vesz igénybe,</Bold> előtte érzéstelenítünk és pontos elorajzolas és tervezés után készítjük el a tetoválást. Fontos, hogy menet közben is végig erzestelenitot használunk, így probaljuk elérni, hogy minimális kellemetlenséggel járjon csak a beavatkozás.</Text>
+           <Text>Minden új tetovalas 2 alkalom, az első alkalom után legalább 4 hétnek kell elteni, legfeljebb 3 hónapon belül meg kell, hogy történjen a korrekció, ebben az esetben tartalmazza az ár, a korrekciót.</Text>
+           <Text>Mindig két alkalom kell ahhoz, hogy tökéletes, egyénre szabott szájat tudjunk készíteni.</Text>
+           </Right>
+           </Bottom>
+           <OnlineFoglalas/>
         </Container>
     )
 }

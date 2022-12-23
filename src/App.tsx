@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import DonniButton from './DonniButton'
 import SminkHeader from './Sminkheader'
 import SzemoldokTetovalas from './Szemoldoktetovalas';
+import Footer from './footer';
 
 
 const Container = styled.div`
@@ -21,6 +22,9 @@ const App:React.FC = () => {
       <SminkHeader />
 
       <SzemoldokTetovalas/>
+      
+      <Footer/>
+
     </Container>
   );
 }
