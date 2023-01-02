@@ -25,6 +25,12 @@ const Mid = styled.div`
     width:100%;
    
 `
+const Mid2 = styled.div`
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+`
 const Right = styled.div`
     display:flex;
     flex-direction: column;
@@ -64,9 +70,10 @@ const ListItem = styled.div`
     line-height: 26px;
     letter-spacing: 0.02em;
     color: #303030;
-    width: 100%;
-    align-items: end;
-    margin-right: 400px;
+    align-items: center;
+    
+    
+        
 `
 const Footer:React.FC = () => {
     return (
@@ -81,8 +88,10 @@ const Footer:React.FC = () => {
             <Header>Oldaltérkép</Header>
             <List>Kezdőlap</List>
             <List>Szolgáltatások</List>
+            <Mid2>
             <ListItem>Szemhéjtetoválás</ListItem>
             <ListItem>Kozmetika</ListItem>
+            </Mid2>
             <List>Rólunk</List>
             <List>Munkáink</List>
             <List>Kapcsolat</List>

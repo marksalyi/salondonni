@@ -18,7 +18,7 @@ flex-direction: column;
 
 const App:React.FC = () => {
   return (
-    <Container className="App">
+    <Container>
       <SminkHeader />
 
       <SzemoldokTetovalas/>

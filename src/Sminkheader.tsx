@@ -7,21 +7,20 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
-    height: 30%;
-    left: 0px;
-    top: 148px;
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%; 
+    
     background: linear-gradient(267.94deg, #DECCCD -2.57%, #FFFFFF 72.66%, #F2E5E6 101.17%);
 `
 const Header = styled.div`
     
     
-    left: 795px;
-    top: 150px;
-
+    
+    
     font-family: 'DM Serif Display';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 48px;
     line-height: 63px;
     text-align: center;
@@ -31,8 +30,7 @@ const Header = styled.div`
 const Text = styled.div`
   
     
-    left: 598px;
-    top: 200px;
+    
 
     font-family: 'Poppins';
     font-style: normal;
@@ -45,6 +43,7 @@ const Text = styled.div`
     letter-spacing: 0.02em;
 
     color: #303030;
+    margin-bottom: 2%;
 `
 
 const ButtonContainer = styled.div`
