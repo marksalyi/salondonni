@@ -6,6 +6,7 @@ import DonniButton from './DonniButton'
 import SminkHeader from './Sminkheader'
 import SzemoldokTetovalas from './Szemoldoktetovalas';
 import Footer from './footer';
+import NewOutPut from './newoutput';
 
 
 const Container = styled.div`
@@ -24,7 +25,7 @@ const App:React.FC = () => {
       <SzemoldokTetovalas/>
       
       <Footer/>
-
+      <NewOutPut/>
     </Container>
   );
 }
