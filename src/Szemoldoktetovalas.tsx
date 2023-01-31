@@ -10,6 +10,7 @@ import negy from './negy.jpg'
 import ot from './ot.jpg'
 import hat from './hat.jpg'
 import SzemoldoktetovalasImg from './SzemoldoktetovalasImg';
+import ProgressSteps from './ProgressSteps';
 
 const Container = styled.div`
     display:flex;

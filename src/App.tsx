@@ -7,6 +7,7 @@ import SminkHeader from './Sminkheader'
 import SzemoldokTetovalas from './Szemoldoktetovalas';
 import Footer from './footer';
 import NewOutPut from './newoutput';
+import Salon from './salon';
 
 
 const Container = styled.div`
@@ -26,6 +27,7 @@ const App:React.FC = () => {
       
       <Footer/>
       <NewOutPut/>
+      <Salon/>
     </Container>
   );
 }
